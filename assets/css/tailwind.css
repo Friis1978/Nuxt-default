@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 body {
-    @apply bg-gray-50
+  @apply bg-gray-50;
 }
 
 @layer components {
-    .btn {
-        @apply bg-[#12b488] text-white px-3 py-2 rounded-sm text-sm text-white;
-    }
+  .btn {
+    @apply bg-[#12b488] text-white px-3 py-2 rounded-sm text-sm text-white;
+  }
 
-    .card {
-        @apply p-3 rounded-md bg-white shadow-md h-full;
-    }
+  .card {
+    @apply p-3 rounded-md bg-white shadow-md h-full;
+  }
 }
