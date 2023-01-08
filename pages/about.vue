@@ -1,18 +1,19 @@
 <template>
     <div>
         <h2>About</h2>
-        <p>{{ data['DKK'] }}</p>
+        <p>{{ ninja }}</p>
+        <p>{{ currency }}</p>
     </div>
 </template>
 
 <script setup>
-    // // params
-    // const { data } = await useFetch('/api/ninja?name=mario', {
-    //     method: 'post',
-    //     body: { age: 30 }
-    // })
+    // params
+    const { data: ninja } = await useFetch('/api/ninja?name=mario', {
+        method: 'post',
+        body: { age: 30 }
+    })
 
-    const { data } = await useFetch('/api/ninja')
+    const { data: currency } = await useFetch('/api/currency/DKK')
 </script>
 
 <style scoped>
