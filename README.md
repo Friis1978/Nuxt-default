@@ -5,6 +5,8 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 Deploy your github repo to Netlify: [Deploy to Netlify tutorial](https://youtu.be/XpCTyBMOtNQ)
 
+Fake api endpoint: [Fakestore products](https://fakestoreapi.com/)
+Free currency api: [Currency api](https://app.currencyapi.com/)
 ## Env variables
 Remember to setup an account in [Currency api](https://app.currencyapi.com/)
 
