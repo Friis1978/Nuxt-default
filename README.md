@@ -1,6 +1,15 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Crash Course
+Tutorial course from Net Ninja: [Youtube course](https://www.youtube.com/watch?v=GBdO5myZNsQ&list=PL4cUxeGkcC9haQlqdCQyYmL_27TesCGPC&index=1)
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+Deploy your github repo to Netlify: [Deploy to Netlify tutorial](https://youtu.be/XpCTyBMOtNQ)
+
+## Env variables
+Remember to setup an account in [Currency api](https://app.currencyapi.com/)
+
+Use these variables:
+- CURRENCY_API_KEY
 
 ## Setup
 
