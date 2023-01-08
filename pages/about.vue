@@ -1,12 +1,18 @@
 <template>
     <div>
         <h2>About</h2>
-        <p>Content</p>
+        <p>{{ data['DKK'] }}</p>
     </div>
 </template>
 
 <script setup>
-    
+    // // params
+    // const { data } = await useFetch('/api/ninja?name=mario', {
+    //     method: 'post',
+    //     body: { age: 30 }
+    // })
+
+    const { data } = await useFetch('/api/ninja')
 </script>
 
 <style scoped>
