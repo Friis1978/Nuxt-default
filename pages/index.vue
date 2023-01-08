@@ -114,9 +114,7 @@
         <h1>Nice Curves</h1>
         <p>
           Nisi eius iste delectus quia veritatis unde! Aut enim quod recusandae
-          deserunt, eos commodi corporis rem. Tempora totam laboriosam, modi
-          facere atque, fugiat autem deleniti consequuntur nesciunt cumque
-          necessitatibus laborum.
+          deserunt, eos commodi corporis rem.
         </p>
         <div class="wave">
           <!-- generate shapes: https://www.shapedivider.app/ -->
@@ -134,6 +132,7 @@
         </div>
       </section>
       <section class="pink blob">
+        <p class="absolute text-3xl top-60 w-60">Read about svg animations now</p>
         <svg
           id="visual"
           viewBox="0 0 900 600"
@@ -148,7 +147,9 @@
               id="blob1"
               d="M144 -147.5C172.5 -115.5 171.7 -57.7 175 3.3C178.3 64.3 185.7 128.7 157.2 153.7C128.7 178.7 64.3 164.4 -2.5 166.8C-69.3 169.3 -138.6 188.6 -170.3 163.6C-201.9 138.6 -196 69.3 -196.7 -0.7C-197.4 -70.7 -204.8 -141.4 -173.1 -173.4C-141.4 -205.4 -70.7 -198.7 -6.5 -192.2C57.7 -185.7 115.5 -179.5 144 -147.5"
               fill="#BB004B"
-            ></path>
+              v-text="msg"
+            >       
+            </path>
           </g>
           <g
             transform="translate(454.4644894623732 282.7206490703849)"
