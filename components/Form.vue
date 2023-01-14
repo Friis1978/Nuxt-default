@@ -33,5 +33,8 @@ const form = reactive({
 const handleSubmit = () => {
   emailError = true
   console.log("Form submit", form.email, form.password);
+  // $store.commit('auth/setUser', form.email)
+  // $store.commit('auth/setPass', form.password)
+  // return navigateTo('/secret')
 };
 </script>

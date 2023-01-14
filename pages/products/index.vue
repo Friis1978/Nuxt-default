@@ -1,6 +1,5 @@
 <template>
     <div>
-        <Form />
         <div class="grid grid-cols-4 gap-5">
             <div v-for="p in products" v-bind:key="p.id">
                 <ProductCard :product="p"/>

@@ -16,6 +16,7 @@
     "tailwindcss": "^3.2.4"
   },
   "dependencies": {
-    "kute.js": "^2.2.4"
+    "kute.js": "^2.2.4",
+    "pinia": "^2.0.28"
   }
 }
